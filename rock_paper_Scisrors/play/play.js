@@ -107,7 +107,7 @@ function play(game) {
   document.querySelector(".js-choose").innerHTML = `${result}`;
   document.querySelector(
     ".js-choosebycomp"
-  ).innerHTML = `You  <img class='resu-but' src="../image/${game}.jpg" id="score-emoji" alt="${game} emoji"/>    <img src="../image/${computerValue}.jpg" class='resu-but2' id="score-emoji" alt="${computerValue} emoji"/> computer`;
+  ).innerHTML = `You  <img class='resu-but' src="../srs/${game}.jpg" id="score-emoji" alt="${game} emoji"/>    <img src="../srs/${computerValue}.jpg" class='resu-but2' id="score-emoji" alt="${computerValue} emoji"/> computer`;
   if (result === "you win.") {
     document.querySelector(".resu-but2").classList.add("greencolor");
     document.querySelector(".resu-but").classList.add("greencolor");
